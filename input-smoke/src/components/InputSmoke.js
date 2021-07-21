@@ -45,6 +45,7 @@ const InputSmoke = () => {
   return (
     <div>
       <div className="section">
+        <h2>문장을 입력 후 마우스로 올려보세요!</h2>
         <input
           value={inputText}
           onChange={onChange}
